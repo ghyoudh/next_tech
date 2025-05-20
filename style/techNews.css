@@ -1,0 +1,48 @@
+
+/* news  */
+.news {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 5px solid #1976d2;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+.title {
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #111111;
+}
+.news h3 {
+    margin: 2px;
+    padding: 2px;
+}
+.news p {
+    margin: 0;
+    font-size: 14px;
+}
+.news-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+.news__image {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: fit-content;
+}
+.news__content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
